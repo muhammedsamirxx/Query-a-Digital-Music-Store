@@ -1,7 +1,9 @@
 # Query-a-Digital-Music-Store
 SQL Project
-1st Question
-#Which Artist We should invite to our rock concert?#
+
+# 1st Question
+
+#Which Artist We should invite to our rock concert? 
 
 SELECT a.Name Artist_ ,
        COUNT(g.Name) Rocks
