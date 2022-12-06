@@ -6,7 +6,9 @@
 ## Which Artist We should invite to our rock concert? 
 
 SELECT a.Name Artist_ ,
+
        COUNT(g.Name) Rocks
+       
 
 FROM Artist a
 
@@ -35,7 +37,9 @@ LIMIT 10
 ## Which Band is The most Productive?
 
 SELECT a.Name Artist_ ,
+
        COUNT(t.TrackId) numOf_tracks
+       
 
 FROM Artist a
 
